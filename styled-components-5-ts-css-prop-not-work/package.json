@@ -1,0 +1,42 @@
+{
+  "name": "play-styled-components-5-ts",
+  "version": "1.0.0",
+  "main": "src/demo.tsx",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn run demo",
+    "demo": "webpack-dev-server --config ./webpack.config.js"
+  },
+  "dependencies": {
+    "@styled-system/css": "^5.1.4",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "styled-components": "^5.0.0-rc.2",
+    "styled-system": "^5.1.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.0",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/plugin-proposal-numeric-separator": "^7.7.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.0",
+    "@babel/preset-react": "^7.7.0",
+    "@babel/preset-env": "^7.7.0",
+    "@babel/preset-typescript": "^7.7.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/styled-components": "^4.4.0",
+    "@types/styled-system": "^5.1.4",
+    "@types/styled-system__css": "^5.0.4",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-styled-components": "^1.10.6",
+    "css-loader": "^3.2.0",
+    "source-map-loader": "^0.2.4",
+    "source-map-support": "^0.5.13",
+    "style-loader": "^1.0.0",
+    "typescript": "^3.7.0",
+    "webpack": "^4.40.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.9.0"
+  }
+}

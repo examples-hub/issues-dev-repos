@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "module": "commonjs",
+        "target": "esnext",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "jsx": "preserve",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": ["es2015", "esnext", "dom"],
+    }
+}
