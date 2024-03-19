@@ -1,0 +1,109 @@
+{
+  "logging": {
+    "rspack.Compilation": {
+      "entries": [
+        { "type": "time", "message": "module add task: 95 ms" },
+        {
+          "type": "time",
+          "message": "module process dependencies task: 82 ms"
+        },
+        { "type": "time", "message": "module factorize task: 44 ms" },
+        { "type": "time", "message": "module build task: 29 ms" },
+        { "type": "cache", "message": "module build cache: 0.0% (0/8232)" },
+        {
+          "type": "cache",
+          "message": "module factorize cache: 0.0% (8/20475)"
+        },
+        { "type": "time", "message": "finish modules: 79389 ms" },
+        { "type": "time", "message": "optimize dependencies: 35 ms" },
+        { "type": "time", "message": "create chunks: 63 ms" },
+        { "type": "time", "message": "optimize: 0 ms" },
+        { "type": "time", "message": "module ids: 12 ms" },
+        { "type": "time", "message": "chunk ids: 0 ms" },
+        { "type": "time", "message": "optimize code generation: 0 ms" },
+        {
+          "type": "cache",
+          "message": "module code generation cache: 0.0% (0/7202)"
+        },
+        { "type": "time", "message": "code generation: 133 ms" },
+        { "type": "time", "message": "runtime requirements.modules: 5 ms" },
+        { "type": "time", "message": "runtime requirements.chunks: 2 ms" },
+        { "type": "time", "message": "runtime requirements.entries: 0 ms" },
+        { "type": "time", "message": "runtime requirements: 8 ms" },
+        { "type": "time", "message": "hashing: hash chunks: 0 ms" },
+        { "type": "time", "message": "hashing: hash runtime chunks: 16 ms" },
+        {
+          "type": "time",
+          "message": "hashing: process full hash chunks: 0 ms"
+        },
+        { "type": "time", "message": "hashing: 16 ms" },
+        { "type": "time", "message": "create module assets: 0 ms" },
+        { "type": "time", "message": "create chunk assets: 11 ms" },
+        { "type": "time", "message": "process assets: 691 ms" },
+        { "type": "time", "message": "after process assets: 0 ms" }
+      ],
+      "filteredEntries": 0,
+      "debug": false
+    },
+    "rspack.Compiler": {
+      "entries": [
+        { "type": "time", "message": "make hook: 0 ms" },
+        { "type": "time", "message": "make: 593 ms" },
+        { "type": "time", "message": "finish make hook: 0 ms" },
+        { "type": "time", "message": "finish compilation: 79389 ms" },
+        { "type": "time", "message": "seal compilation: 985 ms" },
+        { "type": "time", "message": "afterCompile hook: 0 ms" },
+        { "type": "time", "message": "emitAssets: 25 ms" },
+        { "type": "time", "message": "done hook: 0 ms" }
+      ],
+      "filteredEntries": 0,
+      "debug": false
+    },
+    "rspack.EnsureChunkConditionsPlugin": {
+      "entries": [
+        { "type": "time", "message": "ensure chunk conditions: 0 ms" }
+      ],
+      "filteredEntries": 0,
+      "debug": false
+    },
+    "rspack.RemoveEmptyChunksPlugin": {
+      "entries": [{ "type": "time", "message": "remove empty chunks: 0 ms" }],
+      "filteredEntries": 0,
+      "debug": false
+    },
+    "rspack.SourceMapDevToolPlugin": {
+      "entries": [
+        { "type": "time", "message": "collect source maps: 683 ms" },
+        { "type": "time", "message": "emit source map assets: 6 ms" }
+      ],
+      "filteredEntries": 0,
+      "debug": false
+    },
+    "rspack.SplitChunksPlugin": {
+      "entries": [
+        { "type": "time", "message": "prepare module group map: 3 ms" },
+        { "type": "time", "message": "ensure min size fit: 0 ms" },
+        { "type": "time", "message": "process module group map: 0 ms" },
+        { "type": "time", "message": "ensure max size fit: 0 ms" }
+      ],
+      "filteredEntries": 0,
+      "debug": false
+    },
+    "rspack.WarnCaseSensitiveModulesPlugin": {
+      "entries": [
+        { "type": "time", "message": "check case sensitive modules: 11 ms" }
+      ],
+      "filteredEntries": 0,
+      "debug": false
+    },
+    "rspack.buildChunkGraph": {
+      "entries": [
+        { "type": "time", "message": "prepare entrypoints: 7 ms" },
+        { "type": "time", "message": "process queue: 47 ms" },
+        { "type": "time", "message": "extend chunkGroup runtime: 0 ms" }
+      ],
+      "filteredEntries": 0,
+      "debug": false
+    }
+  }
+}
